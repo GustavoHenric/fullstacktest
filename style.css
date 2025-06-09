@@ -1,9 +1,20 @@
 @charset "UTF-8";
 
+body{
+    background-image: url(./Images/bg-image.png);
+    background-color: #573824;
+    background-size: cover;
+}
+
 img {
     border-radius: 16px;
 }
 
 div#page {
     background-color: #F0E8C2;
+    padding: 24px;
+    border-radius: 24px;
+    width: 800px;
+    margin: 48px auto;
+    box-sizing: border-box;    
 }
