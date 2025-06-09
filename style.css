@@ -1,20 +1,38 @@
 @charset "UTF-8";
 
+:root{
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573A37;
+}
+
 body{
     background-image: url(./Images/bg-image.png);
     background-color: #573824;
     background-size: cover;
 }
 
-img {
-    border-radius: 16px;
-}
-
-div#page {
+#page {
     background-color: #F0E8C2;
     padding: 24px;
     border-radius: 24px;
     width: 800px;
     margin: 48px auto;
     box-sizing: border-box;    
+    font-family: alice;
+}
+
+img {
+    border-radius: 16px;
+}
+
+h1{ 
+    line-height: 140%;
+    font-size: 40px;
+    color: #291B1A;
+}
+
+h2{
+    font-size: 24px;
+    color: #291B1A;
 }
