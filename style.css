@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+img {
+    border-radius: 16px;
+}
+
+div#page {
+    background-color: #F0E8C2;
+}
